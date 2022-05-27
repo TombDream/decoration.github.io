@@ -1,0 +1,91 @@
+.qj {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: beige; */
+}
+.bjys{
+    background-color: aqua;
+}
+
+.nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: cornsilk;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.nav1 {
+    width: 80%;
+    /* background-color: aqua; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-z {
+    float: left;
+    width: 50%;
+}
+
+.nav-y {
+    float: right;
+    width: 50%;
+}
+
+.nav2,
+.nav3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav2 .nav21 ,
+.nav3 .nav21{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.nav2 .nav22 ,
+.nav3 .nav22{
+    width: 50%;
+    float: right ;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imgs {
+    width: 100%;
+}
+
+.imgs img {
+    width: 25%;
+    /* height: 25%; */
+    float: left;
+}
